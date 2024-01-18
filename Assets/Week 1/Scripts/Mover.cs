@@ -17,8 +17,8 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float direction = Input.GetAxis("Horizontal");
-        transform.Translate(direction * speed * Time.deltaTime, 0, 0);
+        // float direction = Input.GetAxis("Horizontal");
+        // transform.Translate(direction * speed * Time.deltaTime, 0, 0);
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
